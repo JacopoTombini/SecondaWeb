@@ -1,0 +1,27 @@
+@model Tombini.Jacopo._5H.Secondaweb.Models.DBContext
+@{  
+    ViewData["Title"] = "Cancella Page";
+ }
+
+<div class="text-center">
+    <h1 class="display-4">Ciao....</h1>
+    <h1>Utente ELIMINATO.</h1>
+    <h2>ecco l'elenco delle persone prenotate.</h2>
+    <table class="table table-bordered table-striped table-sm">
+       <thead>
+           <tr>
+               <th>Home</th>
+               <th>Email</th>
+           </tr>
+       </thead> 
+       <tbody>
+           @foreach(Prenotazione p in Model.Prenotazioni)
+           {
+            <tr>
+             <td>@p.Nome</td> 
+             <td>@p.Email</td>
+            </tr>
+           }
+       </tbody>
+    </table>
+</div>
