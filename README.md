@@ -10,6 +10,7 @@
 * **Elimina** 
 
 -Link Azure: https://jacopotombini.azurewebsites.net/Account/Login
+
 -Il *template* è stato prelevato da https://html5up.net/ 
 
 ----------------------------------------------------------
@@ -24,4 +25,5 @@
 * **Delete**
 
 -Azure Link: https://jacopotombini.azurewebsites.net/Account/Login
+
 -The *template* has been retrieved from https://html5up.net/ 
